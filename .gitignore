@@ -1,0 +1,110 @@
+HELP.md
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+# Compiled class files
+*.class
+
+# JAR, WAR, EAR files
+*.jar
+*.war
+*.ear
+
+# Target & Build Directories
+target/
+build/
+
+# Logs
+logs/
+*.log
+*.out
+*.err
+hs_err_pid*
+
+# Maven Dependencies
+.mvn/
+pom.xml.tag
+pom.xml.releaseBackup
+dependency-reduced-pom.xml
+release.properties
+
+# Gradle Files
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# VS Code
+.vscode/
+
+# Eclipse
+*.project
+*.classpath
+*.factorypath
+.settings/
+
+# Temporary Files
+*.swp
+*.swo
+*.bak
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Spring Boot Properties (Optional)
+# Uncomment if you don't want to commit sensitive configs
+# src/main/resources/application.properties
+# src/main/resources/application.yml
+# src/main/resources/application-*.yml
+# .env
+
+# Docker
+docker-compose.override.yml
+.env
+
+# Database Files (H2, PostgreSQL Dumps)
+*.db
+*.sql
+
+# Node Modules (if using React/Angular with Spring Boot)
+node_modules/
